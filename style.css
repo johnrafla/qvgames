@@ -1,0 +1,26 @@
+#mainframe {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 310px;
+  background-color: #26263D;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#ground {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 0px solid white;
+  border-radius: 10px 10px 10px 10px;
+  background-color: sandybrown;
+}
