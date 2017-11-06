@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Zorque Regular';
+  src: url('zorque.regular.ttf')  format('truetype');
+}
+
 #mainframe {
   position: fixed;
   margin: auto;
@@ -23,4 +28,39 @@
   border-right: 0px solid white;
   border-radius: 10px 10px 10px 10px;
   background-color: sandybrown;
+}
+
+#startingframe {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 600px;
+  height: 310px;
+  background-color: rgb(16, 16, 24);
+  border-radius: 10px;
+  border: 1px solid white;
+  text-align: center;
+  box-shadow: 100;
+  z-index: 10;
+}
+
+#startingground {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px 10px 10px 10px;
+  z-index: 10;
+}
+
+#starttext {
+  font-family: 'Zorque Regular';
+  color: white;
+  top: 200px;
+  font-size: 65px;
+  z-index: 10;
 }

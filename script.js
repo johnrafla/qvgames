@@ -1,19 +1,25 @@
 $(document).bind('keydown', function(e) {
-  if (e.keyCode == 49) {
-    $('#1').hide();
-  } else if (e.keyCode == 50) {
-    $('#2').hide();
-  } else if (e.keyCode == 51) {
-    $('#3').hide();
+
+    // * Jumping Factor * //
+    if (e.keyCode == 32) {
+    $('#running').hide;
+    $('#jump').show;
+    $('#jump').animate({bottom: '300px'});
+
+    // * Sliding Factor * //
+  }
+  else if (e.keyCode == 83) {
+    $('#running').fadeOut().delay(450).fadeIn().hide();
+    $('#slide').fadeIn().fadeOut();
   }
   return false;
 });
 
-$(document).bind('keydown', function(e) {
-  if (e.keyCode == 80) {
-    $('#1').show(100);
-    $('#2').show(100);
-    $('#3').show(100);
-  }
-  return false;
+$(function() {
+  $('#startingframe').click(function() {    
+  $('#startingframe').hide();
+  $('#starting').hide();
+  $('#starttext').hide();
+  $('#running').show();
+  });
 });
