@@ -3,7 +3,7 @@
 
           <head>
             <!-- Website title -->
-            <title>Quaker Valley Games</title>
+            <title>My Game</title>
 
             <!-- Favicon Files -->
             <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png" />
@@ -35,25 +35,14 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script src="script.js"></script>
           </head>
-  <body style="background-color: #1f0808; box-shadow: 100px;">
-    
-    <div style="text-align: center;">
+<body>
+<div id="mainframe">
+    <div id="startingframe"><span id="starttext">click anywhere<br>to start</span>
+      <div id="startingground">
+      <img id="starting" src="starting.gif" style="border-radius: 10px;" height="80px"></div>
+    </div>
+    <div id="ground">
+    <div id="maincharacter">
 
-    <span style="color: black; text-shadow: -3px 0 white, 0 3px white, 0 3px white, 0 -3px white; font-size: 55px; font-family: Zorque Regular;">Quaker Valley <br>Games</span></div>
-    <div style="text-align:center; padding:20px;">
-        <!-- Flash Games -->
-        <button id="Flash_Games_Button" class="switcher_button" style="padding: 15px 70px;">
-            Flash Games
-        </button>
-      
-        <!-- My Game -->
-          <button id="My_Game_Button" class="switcher_button" style="padding: 15px 70px;">
-            My Game
-          </button>
-      </div>
-      <iframe src="Flash Games.html" id="Flash_Games"></iframe>
-
-      <iframe src="My Game.html" id="mainframe" scrolling="no"></iframe>
-
-  </body>
-</html>
+    <img id="running" src="running.gif" height="80px"></div></div></div>
+    </body></html>
