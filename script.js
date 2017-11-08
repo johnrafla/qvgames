@@ -29,14 +29,14 @@ $(function() {
 
 $(function() {
     $('#Flash_Games_Button').click(function() {
-    $('#Game_Container').hide();
+    $('#My_Game').hide();
     $('#Flash_Games').show();
     document.title = "Flash Games";
     });
 
     $('#My_Game_Button').click(function() {
-    $('#Game_Container').show('<iframe src="My Game.html" id="mainframe" scrolling="no"></iframe>');
+    $('#My_Game').show();
     $('#Flash_Games').hide();
-    document.title = "My Stickman Game";
+    document.title = "Stickman Game";
     });
 });
