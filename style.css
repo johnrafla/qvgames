@@ -3,8 +3,10 @@
   src: url('zorque.regular.ttf')  format('truetype');
 }
 
-html {
-  overflow: hidden;
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    position: absolute;
 }
 
 #mainframe {
